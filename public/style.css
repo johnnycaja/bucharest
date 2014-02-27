@@ -30,6 +30,7 @@ body {
 
 #main-banner-title h2 {
 	color: white;
+	text-transform: uppercase;
 }
 
 #blue-font {
@@ -112,5 +113,89 @@ body {
 	margin-left: 30px;
 	border-bottom: 4px solid #74C6DE;
 	width: 150px
+}
+
+#temp-banner {
+	height: 150px;
+	background: white;
+	opacity: 0.4;
+	border:2px solid transparent;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#actual-temp {
+}
+
+#temp-number-big {
+	font-size:110px;
+	margin-left: 25px;
+}
+
+#temp-number-big i{
+	font-size: 70px;
+}
+
+#main-date {
+	position: absolute;
+	bottom: 20px;
+	left: 25px;
+	width: 120px;
+	height:25px;
+	background: #8F8177;
+	border: 1px transparent;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+	margin-top: -12.5px;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#wind-max-temp {
+	position: absolute;
+	left: 190px;
+	bottom: 25px;
+}
+
+#week {
+	position: absolute;
+	right: 0;
+	bottom:0;
+}
+
+.day {
+	width: 100px;
+	height: 150px;
+	border-left: 2px solid #91857A;
+	float: left;
+}
+
+.day-of-week {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 40px;
+	height:25px;
+	background: #8F8177;
+	border: 1px transparent;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.max-temp-small {
+	margin-top: 25px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+.weather-icon-small i {
+	margin-top: 25px;
+	margin-left: 40px;
+	font-size: 20px;
 }
 
